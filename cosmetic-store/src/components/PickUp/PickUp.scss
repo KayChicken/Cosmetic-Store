@@ -1,0 +1,78 @@
+.pickup__section {
+   
+    margin-top: 100px;
+    background-color: #E1E7F0;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+
+
+    .pickup__container {
+        max-width: 1345px;
+        margin: 0 auto;
+
+        .pickup__title {
+            padding-top: 95px;
+            font-family: EuropeExt;
+            font-size: 36px;
+            font-weight: 400;
+            line-height: 39px;
+            letter-spacing: 0.1em;
+
+
+        }
+
+        .pickup__desc {
+            margin-top: 5px;
+            font-family: EuropeExt;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 40px;
+            letter-spacing: 0.1em;
+
+        }
+
+        .pickup__logos {
+            margin-top: 30px;
+            
+            img:first-child {
+                margin-right: 30px;
+            }
+        }
+
+        .pickup__btn__wrapper {
+            cursor: pointer;
+            margin-bottom: -30px;
+            display: inline-flex;
+            margin-top: 29px;
+            align-items: center;
+            text-align: center;
+            border-radius: 50px;
+            color: #FFF;
+            padding: 26px 50px;
+            background-color: $beautifulRed;
+
+            a {
+
+                text-decoration: none;
+                margin-right: 20px;
+                color: #FFF;
+                text-transform: uppercase;
+                font-family: Manrope;
+                font-size: 16px;
+                font-weight: 800;
+                line-height: 22px;
+                letter-spacing: 0.1em;
+                text-align: left;
+
+            }
+
+
+        }
+
+    }
+
+
+
+
+}

@@ -1,0 +1,65 @@
+.concept__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    width: 100%;
+    position: relative;
+    height: 500px;
+    background-image: url('../../../public/img/concept/bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+
+    .concept__content {
+        position: absolute;
+        margin-bottom : -500px;
+        background: linear-gradient(180deg, #FFE17F 43.75%, #FFC47F 100%);
+        max-width: 1400px;
+        width: 100%;
+        .concept__title {
+            padding-top: 50px;
+            text-transform: uppercase;
+            font-family: Manrope;
+            font-size: 36px;
+            font-weight: 600;
+            line-height: 39px;
+            letter-spacing: 0.1em;
+            text-align: center;
+
+
+        }
+
+
+        .concept__desc {
+            margin-top: 5px;
+            text-transform: uppercase;
+            font-family: EuropeExt;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 40px;
+            letter-spacing: 0.1em;
+            text-align: center;
+
+
+        }
+
+        .concept__little {
+            margin-top: 20px;
+            font-family: Manrope;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 28px;
+            letter-spacing: 0em;
+            text-align: center;
+            padding-bottom: 50px;
+
+        }
+
+
+
+
+    }
+
+}

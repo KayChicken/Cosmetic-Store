@@ -1,0 +1,192 @@
+@import '../../mixins.scss';
+
+
+
+.header {
+
+    position: relative;
+    z-index: 5;
+
+}
+
+
+.header::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    @include headerBody;
+    z-index: -1;
+}
+
+
+
+
+
+
+.header__content {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    .header__logo {
+
+
+
+        img {
+            display: block;
+        }
+
+    }
+
+
+    .header__nav {
+
+        flex: 0.8;
+        margin-left: 20px;
+        margin-right: 20px;
+
+
+        li:last-child a {
+            margin-right: 10px;
+        }
+
+
+        .header__burger {
+            cursor: pointer;
+            margin-right: 10px;
+        }
+
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+
+
+        }
+
+
+        li {
+
+            display: flex;
+            align-items: center;
+            list-style-type: none;
+
+
+
+            a {
+                white-space: nowrap;
+                text-decoration: none;
+                font-family: Manrope;
+                font-size: 13px;
+                font-weight: 800;
+                line-height: 18px;
+                letter-spacing: 0.1em;
+                text-align: left;
+                text-transform: uppercase;
+                color: #000;
+                margin-right: 15px;
+
+
+
+            }
+
+
+
+            .header__arrow {
+                cursor: pointer;
+            }
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+
+    .header__addition {
+        display: flex;
+        align-items: center;
+
+
+
+        .addition__icon {
+            position: relative;
+            margin-right: 30px;
+
+            &:last-child {
+
+                margin-right: 0;
+            }
+
+
+
+            .addition__circle {
+                position: relative;
+                text-align: center;
+                align-items: center;
+                position: absolute;
+                top : -5px;
+                left: 12px;
+                width: 22px;
+                height: 22px;
+                border-radius: 50%;
+                background-color: #FFF;
+                
+
+
+                .addition__circle__inner {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    text-align: center;
+                    align-items: center;
+                    width: 15px;
+                    height: 15px;
+                    background-color: $beautifulRed;
+                    border-radius: 50%;
+                    
+
+
+                    .addition__circle__count {
+                        color : #FFF;
+                        font-family: Inter;
+                        font-size: 10px;
+                        font-weight: 600;
+                        line-height: 12px;
+                        letter-spacing: 0em;
+                        text-align: center;
+
+                    }
+
+
+                }
+            }
+
+
+
+
+        }
+    }
+
+
+
+
+
+}

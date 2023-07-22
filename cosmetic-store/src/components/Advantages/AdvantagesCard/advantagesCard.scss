@@ -1,0 +1,57 @@
+.advantages__card {
+
+    .advantages__card__title {
+        margin-top: 15px;
+        text-transform: uppercase;
+        font-family: EuropeExt;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: 0.1em;
+        text-align: left;
+
+    }
+
+    .advantages__card__desc {
+        margin-top: 5px;
+        max-width: 300px;
+        width: 100%;
+        font-family: Manrope;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+}
+
+
+
+@media (max-width : 1400px) {
+    .advantages__card {
+
+
+        img {
+            width: 30px;
+            height: 30px;
+        }
+
+        .advantages__card__title {
+            margin-top: 10px;
+            font-size: 12px;
+          
+
+        }
+
+        .advantages__card__desc {
+            margin-top: 5px;
+            font-size: 14px;
+            
+    
+        }
+
+
+    }
+}

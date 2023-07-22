@@ -1,0 +1,37 @@
+@import './fonts.scss';
+@import './variables.scss';
+@import './components/Header/header.scss';
+@import './components/Promo/promo.scss';
+@import './components/SliderItems/sliderItems.scss';
+@import './components/SliderItems/SliderItem/sliderItem.scss';
+@import './components/Advantages/advantages.scss';
+@import './components/Advantages/AdvantagesCard/advantagesCard.scss';
+@import './components/PickUp/PickUp.scss';
+@import './components/Concept/coscepts.scss';
+@import './components/Composition/composition.scss';
+
+
+
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+#root {
+    overflow: hidden;
+}
+
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+
+
