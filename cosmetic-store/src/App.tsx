@@ -7,6 +7,10 @@ import Advantages from './components/Advantages/Advantages';
 import PickUp from './components/PickUp/PickUp';
 import Concept from './components/Concept/Concept';
 import Composition from './components/Composition/Composition';
+import Bestsellers from './components/Bestsellers/Bestsellers';
+import Care from './components/Care/Care';
+import Test from './components/Test/Test';
+import Expert from './components/Expert/Expert';
 
 
 function App() {
@@ -19,7 +23,10 @@ function App() {
       <PickUp/>
       <Concept/>
       <Composition/>
-    
+      <Bestsellers/>
+      <Care/>
+      <Test/>
+      <Expert/>
     </>
   );
 }

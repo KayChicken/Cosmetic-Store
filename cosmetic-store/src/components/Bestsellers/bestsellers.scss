@@ -1,0 +1,47 @@
+.bestellers__section {
+    margin-top: 100px;
+
+
+
+    .bestellers__title {
+        
+        font-family: EuropeExt;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 56px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        text-align: center;
+
+    }
+
+
+    .bestellers__slider {
+       
+        margin-top: 50px;
+        column-gap: 50px;
+        display: flex;
+        justify-content: space-between;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+    }
+
+
+    .besteller__arrows {
+        margin-top: 50px;
+        justify-content: center;
+        display: flex;
+        column-gap: 50px ;
+
+        svg {
+            cursor: pointer;
+        }
+    }
+
+
+}

@@ -7,14 +7,14 @@ interface CompositionItemProps {
 }
 
 
-const CompositionItem = () => {
+const CompositionItem  : React.FC<CompositionItemProps> =  ({img, desc}) => {
     return (
         <div className='composition__item'>
             <div className="composition__img">
-                <img src="" alt="" />
+                <img src={`./img/compositions/${img}.png`} alt="" />
             </div>
             <div className="composition__desc">
-                
+                {desc}
             </div>
         </div>
     );

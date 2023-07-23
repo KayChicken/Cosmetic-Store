@@ -1,0 +1,107 @@
+.test {
+    position: relative;
+    margin-top: 100px;
+    background-image: url('../../../public/img/test/bg.png');
+    background-repeat: no-repeat;
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    .test__title {
+        max-width: 1000px;
+        font-family: EuropeExt;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 56px;
+        letter-spacing: 0.1em;
+        text-align: center;
+        text-transform: uppercase;
+
+
+
+
+
+    }
+
+
+    .test__down {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+
+        .test__text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+
+            &:nth-child(1) {
+                flex: 1;
+            }
+
+            &:nth-child(2) {
+                flex: 2;
+            }
+
+            &:nth-child(3) {
+                flex: 2;
+            }
+
+
+
+            .test__number {
+                font-family: EuropeExt;
+                font-size: 100px;
+                font-weight: 700;
+                line-height: 112px;
+                letter-spacing: 0.1em;
+                text-align: left;
+                -webkit-text-fill-color: transparent;
+                -webkit-text-stroke: 2px $beautifulRed;
+
+
+            }
+
+            .test__desc {
+                font-family: Manrope;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 22px;
+                letter-spacing: 0em;
+                text-align: left;
+
+            }
+
+        }
+    }
+
+
+    .test__btn__wrapper {
+        position: absolute;
+        bottom: -15px;
+
+       
+
+
+        a {
+            text-decoration: none;
+            color: #fff;
+            text-transform: uppercase;
+            padding: 25px 50px;
+            border-radius: 50px;
+            background-color: $beautifulRed;
+            font-family: Manrope;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 22px;
+            letter-spacing: 0.1em;
+            text-align: left;
+
+        }
+    }
+
+}
