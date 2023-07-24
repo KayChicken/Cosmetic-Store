@@ -1,0 +1,263 @@
+.section__press {
+    margin-top: 100px;
+
+    .press__title {
+
+        font-family: EuropeExt;
+        text-transform: uppercase;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 56px;
+        letter-spacing: 0.1em;
+        text-align: center;
+
+    }
+
+    .press__slider {
+
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        max-width: 1920px;
+        width: 100%;
+
+
+
+
+        .press__carousel {
+            width: 100%;
+            scroll-behavior: smooth;
+            overflow-x: scroll;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: space-between;
+
+            &::-webkit-scrollbar {
+                display: none;
+            }
+
+
+            .press__logo {
+
+                width: calc(100%/6);
+                flex-shrink: 0;
+                flex-grow: 0;
+
+
+
+            }
+
+
+        }
+
+
+        .sldier__arrows {
+            margin-top: 50px;
+            display: flex;
+            column-gap: 50px;
+
+            svg {
+                cursor: pointer;
+            }
+        }
+
+    }
+
+
+}
+
+
+
+
+@media (max-width : 1600px) {
+    .section__press {
+        
+
+     
+
+        .press__slider {
+
+          
+
+
+
+
+            .press__carousel {
+               
+
+               
+
+
+                .press__logo {
+
+                    width: calc(100%/5);
+
+
+
+                }
+
+
+            }
+
+
+
+        }
+
+
+    }
+}
+
+
+
+@media (max-width : 1400px) {
+    .section__press {
+        
+
+      
+
+        .press__slider {
+
+          
+
+
+
+
+            .press__carousel {
+               
+
+
+                .press__logo {
+
+                    width: calc(100%/4);
+
+
+
+                }
+
+
+            }
+
+
+          
+
+        }
+
+
+    }
+}
+
+
+@media (max-width : 1200px) {
+    .section__press {
+        
+
+       
+
+        .press__slider {
+
+          
+
+
+
+
+            .press__carousel {
+               
+
+
+
+                .press__logo {
+
+                    width: calc(100%/3);
+
+
+
+                }
+
+
+            }
+
+
+
+        }
+
+
+    }
+}
+
+@media (max-width : 900px) {
+    .section__press {
+        
+
+
+        .press__slider {
+
+          
+
+
+
+
+            .press__carousel {
+               
+
+
+
+                .press__logo {
+
+                    width: calc(100%/2);
+
+
+
+                }
+
+
+            }
+
+
+
+        }
+
+
+    }
+}
+
+
+@media (max-width : 600px) {
+    .section__press {
+        
+
+      
+
+        .press__slider {
+
+          
+
+
+
+
+            .press__carousel {
+               
+
+              
+
+                .press__logo {
+
+                    width: calc(100%/1);
+
+
+
+                }
+
+
+            }
+
+
+          
+        }
+
+
+    }
+}

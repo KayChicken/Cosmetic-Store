@@ -11,6 +11,7 @@ import Bestsellers from './components/Bestsellers/Bestsellers';
 import Care from './components/Care/Care';
 import Test from './components/Test/Test';
 import Expert from './components/Expert/Expert';
+import Press from './components/Press/Press';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
       <Care/>
       <Test/>
       <Expert/>
+      <Press/>
     </>
   );
 }
