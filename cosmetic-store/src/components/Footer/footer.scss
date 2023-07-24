@@ -1,0 +1,161 @@
+.footer {
+
+    background-color: #E1E7F0;
+    margin-top: 100px;
+    padding: 50px 0;
+
+
+    .footer__container {
+        margin: 0 auto;
+        max-width: 1800px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+
+        .footer__col {
+            display: flex;
+            flex-direction: column;
+
+            h2 {
+                text-transform: uppercase;
+                font-family: Manrope;
+                font-size: 12px;
+                font-weight: 800;
+                line-height: 16px;
+                letter-spacing: 0.1em;
+                text-align: left;
+
+            }
+
+
+        }
+
+
+        .footer__under__logo {
+
+            margin-top: 62px;
+
+            a {
+                font-family: Manrope;
+                font-size: 13px;
+                font-weight: 600;
+                line-height: 18px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #000000BF;
+            }
+
+
+
+
+        }
+
+
+        .info__bottom {
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 11px;
+
+
+
+
+
+
+            a {
+                font-family: Manrope;
+                font-size: 13px;
+                font-weight: 800;
+                line-height: 18px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #000000
+            }
+
+        }
+
+
+
+        .footer__num {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            font-family: Manrope;
+            font-size: 16px;
+            font-weight: 800;
+            line-height: 22px;
+            letter-spacing: 0.1em;
+            text-align: left;
+
+            svg {
+                margin-right: 10px;
+            }
+
+        }
+
+        .footer__whatsUp {
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            font-family: Manrope;
+            font-size: 16px;
+            font-weight: 800;
+            line-height: 22px;
+            letter-spacing: 0.1em;
+            text-align: left;
+
+            svg {
+                margin-right: 10px;
+            }
+        }
+
+        .footer__email {
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            text-transform: uppercase;
+            font-family: Manrope;
+            font-size: 12px;
+            font-weight: 800;
+            line-height: 16px;
+            letter-spacing: 0.1em;
+            text-align: left;
+
+            svg {
+                margin-right: 10px;
+            }
+
+        }
+
+        .footer__time {
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            font-family: Manrope;
+            font-size: 12px;
+            font-weight: 800;
+            line-height: 16px;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            text-align: left;
+
+            svg {
+                margin-right: 10px;
+            }
+
+        }
+
+        .footer__logos {
+            margin-top: 20px;
+            display: flex;
+            column-gap: 10px;
+        }
+
+
+    }
+
+}

@@ -12,6 +12,9 @@ import Care from './components/Care/Care';
 import Test from './components/Test/Test';
 import Expert from './components/Expert/Expert';
 import Press from './components/Press/Press';
+import Subscribe from './components/Subscribe/Subscribe';
+import News from './components/News/News';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -29,6 +32,9 @@ function App() {
       <Test/>
       <Expert/>
       <Press/>
+      <Subscribe/>
+      <News/>
+      <Footer/>
     </>
   );
 }

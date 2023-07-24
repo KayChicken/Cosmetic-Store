@@ -1,0 +1,185 @@
+.section__subscribe {
+
+    margin-top: 100px;
+
+    .subscribe__row {
+        margin: 0 auto;
+        display: flex;
+        max-width: 1800px;
+        width: 100%;
+
+
+        .subscribe__left {
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+
+        }
+
+        .subscribe__right {
+            background: linear-gradient(90deg, #A8C8FF 21.96%, #CCDAF2 98.88%);
+
+
+
+            .subscribe__right__content {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                height: 100%;
+                margin-left: 50px;
+
+                .subscribe__text {
+
+                    font-size: 16px;
+
+
+                    div:first-child {
+                        text-transform: uppercase;
+                        font-family: EuropeExt;
+                        font-size: 2.25em;
+                        font-weight: 700;
+                        line-height: 40px;
+                        letter-spacing: 0.1em;
+                        text-align: left;
+
+                    }
+
+                    div:last-child {
+                        margin-top: 10px;
+                        font-family: Manrope;
+                        font-size: 2.25em;
+                        text-transform: uppercase;
+                        line-height: 39px;
+                        letter-spacing: 0.1em;
+                        text-align: left;
+
+                    }
+
+                }
+
+
+                .subscribe__input {
+                    position: relative;
+                    display: flex;
+                    margin-top: 50px;
+
+                    input {
+
+                        border: 0;
+                        outline: none;
+                        border-radius: 50px;
+                        flex: 0.8;
+                        padding-left: 60px;
+                        margin-right: 10px;
+
+                        &::placeholder {
+                            font-family: Manrope;
+                            font-size: 13px;
+                            font-weight: 400;
+                            line-height: 18px;
+                            letter-spacing: 0.1em;
+                            text-align: left;
+
+                        }
+
+
+                    }
+
+                    svg {
+                        position: absolute;
+                        top: 50%;
+                        left: 2%;
+                        transform: translate(-2%, -50%);
+
+                    }
+
+
+
+
+                    .subscribe__btn__wrapper {
+
+                        font-size: 16px;
+
+                        .subscribe__btn {
+                            display: inline-block;
+                            padding: 1.5em 3.125em;
+                            background-color: $beautifulRed;
+                            border-radius: 50px;
+                            color: #fff;
+                            text-transform: uppercase;
+                            text-decoration: none;
+                            font-family: Manrope;
+                            font-size: 1em;
+                            font-weight: 800;
+                            line-height: 22px;
+                            letter-spacing: 0.1em;
+                            text-align: left;
+
+                        }
+                    }
+                }
+
+
+
+                .checkbox__wrapper {
+                    margin-top: 30px;
+                    display: flex;
+
+
+                    input {
+
+                        position: relative;
+                        appearance: none;
+                        display: grid;
+                        place-content: center;
+                        background-color: #fff;
+                        margin: 0;
+                        width: 20px;
+                        height: 20px;
+                        border: 1px solid $beautifulRed;
+                        border-radius: 50px;
+                        background-color: $beautifulRed;
+
+                    }
+
+                    input[type="checkbox"]::before {
+                        position: absolute;
+                        content: "";
+                        width: 10px;
+                        height: 10px;
+                        background-color: #fff;
+                        top: 50%;
+                        left: 50%;
+                        clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+                        transform: translate(-50%, -50%) scale(0);
+
+
+                    }
+
+                    input[type="checkbox"]:checked::before {
+                        transform: translate(-50%, -50%) scale(1);
+                    }
+
+                    label {
+                        margin-left: 10px;
+                        font-family: Manrope;
+                        font-size: 14px;
+                        font-weight: 500;
+                        line-height: 22px;
+                        letter-spacing: 0em;
+                        text-align: left;
+
+                    }
+                }
+            }
+
+
+
+        }
+
+    }
+
+
+}

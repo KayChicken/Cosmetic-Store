@@ -17,11 +17,13 @@
 @import './components/Test/test.scss';
 @import './components/Expert/Expert.scss';
 @import './components/Press/press.scss';
-
+@import './components/Subscribe/subscribe.scss';
+@import './components/News/News.scss';
+@import './components/Footer/footer.scss';
 
 
 * {
-    
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -40,6 +42,12 @@
     padding: 0 20px;
 }
 
+li {
 
+    list-style-type: none;
 
+}
 
+a {
+    text-decoration: none;
+}
